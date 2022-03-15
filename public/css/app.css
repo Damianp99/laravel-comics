@@ -1,3 +1,61 @@
-@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap);header .upper-header ul li {
-  color: red;
+* {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+header .upper-header {
+  background-color: #0282F9;
+}
+header .upper-header ul li {
+  list-style-type: none;
+}
+header .upper-header ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+  padding: 0px 5px;
+}
+header .bottom-header {
+  padding: 20px 0px;
+}
+header .bottom-header ul li {
+  padding: 0px 5px;
+  color: white;
+  list-style-type: none;
+}
+header .bottom-header ul li a {
+  text-decoration: none;
+  color: #1C1C1C;
+  font-weight: bold;
+}
+
+main .jumbotron {
+  height: 400px;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-end {
+  justify-content: end;
 }

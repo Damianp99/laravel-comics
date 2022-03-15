@@ -1,8 +1,35 @@
 header{
+    
     .upper-header{
+        background-color: $dodgerblue;
         ul{
             li{
-                color: red;
+                list-style-type: none;
+                a{
+                    text-decoration: none;
+                
+                    font-size: 14px;
+                    color: white;
+                    padding: 0px 5px;
+                }
+                
+            }
+        }
+    }
+    .bottom-header{
+        padding: 20px 0px;
+        ul{
+            
+            li{
+                padding:0px 5px;
+                color: white;
+                list-style-type: none;
+                a{
+                    text-decoration: none;
+                    color:$black;
+                    font-weight: bold;
+                }
+               
             }
         }
     }

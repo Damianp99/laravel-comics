@@ -4,3 +4,29 @@
 @import 'header';
 @import 'main';
 @import 'footer';
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.d-flex{
+  display: flex;
+}
+.align-items-center{
+  align-items: center;
+}
+.justify-content-between{
+  justify-content: space-between;
+}
+
+.justify-content-end{
+    justify-content:end;
+}

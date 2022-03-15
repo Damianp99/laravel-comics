@@ -9,9 +9,9 @@
 </head>
 <body>
     @include('includes.header') 
-    ciao ciao
+  
     <main>
- 
+        <div class="jumbotron" style="background-image: url('{{ asset('images/jumbotron.jpg')}}');"></div>
     </main>
     @include('includes.footer') 
     

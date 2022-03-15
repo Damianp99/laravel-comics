@@ -18,8 +18,53 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
-// DIGITAL COMICS
-// DC MERCHANDISE
-// SUBSCRIPTION
-// COMIC SHOP LOCATOR
-// DC POWER VISA
+// CHARACTERS
+Route::get('/characters', function () {
+    return view('characters');
+})->name('characters');
+
+// COMICS
+Route::get('/comics', function () {
+    $comics = config('comics');
+    return view('comics', ['comics' => $comics]);
+})->name('comics');
+
+// MOVIES
+Route::get('/movies', function () {
+    return view('movies');
+})->name('movies');
+
+// TV
+Route::get('/tv', function () {
+    return view('tv');
+})->name('tv');
+
+// GAMES
+Route::get('/games', function () {
+    return view('games');
+})->name('games');
+
+// COLLECTIBLES
+Route::get('/collectibles', function () {
+    return view('collectibles');
+})->name('collectibles');
+
+// VIDEOS
+Route::get('/videos', function () {
+    return view('videos');
+})->name('videos');
+
+// FANS
+Route::get('/fans', function () {
+    return view('fans');
+})->name('fans');
+
+// NEWS
+Route::get('/news', function () {
+    return view('news');
+})->name('news');
+
+// SHOP
+Route::get('/shop', function () {
+    return view('shop');
+})->name('shop');
