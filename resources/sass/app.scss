@@ -20,9 +20,19 @@
 .d-flex{
   display: flex;
 }
+
+.flex-column{
+  flex-direction: column;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
 .align-items-center{
   align-items: center;
 }
+
 .justify-content-between{
   justify-content: space-between;
 }
