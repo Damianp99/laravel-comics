@@ -8,12 +8,15 @@ header .upper-header {
 }
 header .upper-header ul li {
   list-style-type: none;
+  padding-left: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 header .upper-header ul li a {
   text-decoration: none;
   font-size: 14px;
   color: white;
-  padding: 0px 5px;
+  font-weight: bold;
 }
 header .bottom-header {
   padding: 20px 0px;

@@ -1,15 +1,18 @@
-header{
-    
+header{ 
     .upper-header{
         background-color: $dodgerblue;
         ul{
             li{
                 list-style-type: none;
+                padding-left: 30px;
+                padding-top:5px ;
+                padding-bottom:5px ;
                 a{
                     text-decoration: none;
                     font-size: 14px;
                     color: white;
-                    padding: 0px 5px;
+                    font-weight: bold;
+                    
                 }
                 
             }

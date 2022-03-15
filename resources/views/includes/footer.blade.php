@@ -41,7 +41,7 @@
                     <li>Comics</li>
                     <li>Characters</li>
                 </ul>
-                    <p>All Site Content TM and @ 2020 DC Entertainment , unless otherwise <a href="#">noted here</a>. All rights reserved, <a href="#">Cookies Settings</a></p>
+                    <p>All Site Content TM and &copy; 2020 DC Entertainment , unless otherwise <a href="#">noted here</a>. All rights reserved, <a href="#">Cookies Settings</a></p>
             </div>
 
     <img src="{{ asset('images/dc-logo-bg.png')}}" alt=""  class="footer-img">

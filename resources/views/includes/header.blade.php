@@ -4,7 +4,7 @@
         <div class="container">
             <ul class="d-flex justify-content-end">
              
-                <li><a href="">DC POWER VISA</a></li>
+                <li><a href="">DC POWER&#8480; VISA&reg;</a></li>
                 <li><a href="">ADDITIONAL DC SITES</a></li>
             </ul>
         </div>
