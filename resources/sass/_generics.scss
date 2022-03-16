@@ -15,6 +15,29 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.mx-5{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+// PADDING
+.p-5{
+  padding:10px;
+}
+.px-5{
+    padding:0px 10px;
+}
+.py-5{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+// TEXT
+.text-small{
+    font-size: 14px;
+}
+.text-justify{
+    text-align: justify;
+}
 
 // DISPLAY
 .d-flex{
@@ -37,15 +60,23 @@
   justify-content: space-between;
 }
 
+
 .justify-content-end{
     justify-content:end;
 }
+
+.w-50{
+    width: 50%;
+}
+.w-25{
+  width: 25%;
+}
 // BORDERS
 .border-bottom{
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #E8E8E8;
 }
 
-// COLORS
+// COLORS TEXT-COLORS
 .text-white{
   color:white;
 }
@@ -56,6 +87,10 @@
 
 .text-blue{
   color:$darkblue;
+}
+
+.text-gray{
+  color: gray;
 }
 
 .bg-whitesmoke{

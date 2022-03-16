@@ -19,6 +19,32 @@
   margin-bottom: 20px;
 }
 
+.mx-5 {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.p-5 {
+  padding: 10px;
+}
+
+.px-5 {
+  padding: 0px 10px;
+}
+
+.py-5 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.text-small {
+  font-size: 14px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
 .d-flex {
   display: flex;
 }
@@ -43,8 +69,16 @@
   justify-content: end;
 }
 
+.w-50 {
+  width: 50%;
+}
+
+.w-25 {
+  width: 25%;
+}
+
 .border-bottom {
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #E8E8E8;
 }
 
 .text-white {
@@ -57,6 +91,10 @@
 
 .text-blue {
   color: #003F5E;
+}
+
+.text-gray {
+  color: gray;
 }
 
 .bg-whitesmoke {
@@ -197,11 +235,27 @@ footer .bottom-footer ul li {
   font-size: 14px;
 }
 
+#comic .comic-details .text-dodgerblue {
+  color: #0282F9;
+}
+#comic .comic-details .nav {
+  border: 1px solid #E8E8E8;
+  font-weight: bold;
+}
+#comic .comic-details .nav ul li {
+  border-left: 1px solid #E8E8E8;
+}
+#comic .comic-details .nav ul li img {
+  width: 50px;
+  height: 70px;
+  margin-right: 20px;
+  filter: contrast(0);
+}
+#comic .comic-details .nav ul li a {
+  text-decoration: none;
+}
 #comic .details {
   padding: 20px;
-}
-#comic .details p {
-  line-height: 1.5rem;
 }
 #comic .details .info {
   background-color: #55BA59;

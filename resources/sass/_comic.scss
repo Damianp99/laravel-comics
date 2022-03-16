@@ -1,11 +1,31 @@
 #comic{
     .comic-details{
-       
+       .text-dodgerblue{
+           color: $dodgerblue;
+       }
+       .nav{
+           border: 1px solid #E8E8E8;
+           font-weight: bold;
+           ul{
+               li{
+                   border-left: 1px solid #E8E8E8;
+                   img{
+                    width: 50px;
+                    height: 70px;
+                    margin-right: 20px;
+                    filter: contrast(0);
+                   }
+                   a{
+                       text-decoration: none;
+                   }
+               }
+           }
+       }
     }
     .details {
         padding: 20px;
         p{
-            line-height: 1.5rem;
+           
         }
         .info{
             background-color: #55BA59;
@@ -19,7 +39,5 @@
           }
     }
    
-    .adv{
-      
-    }
+    
 }
