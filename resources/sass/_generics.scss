@@ -1,0 +1,63 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+// MARGINS
+.my-5{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+// DISPLAY
+.d-flex{
+  display: flex;
+}
+
+.flex-column{
+  flex-direction: column;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
+.align-items-center{
+  align-items: center;
+}
+
+.justify-content-between{
+  justify-content: space-between;
+}
+
+.justify-content-end{
+    justify-content:end;
+}
+// BORDERS
+.border-bottom{
+    border-bottom: 1px solid gray;
+}
+
+// COLORS
+.text-white{
+  color:white;
+}
+
+.light-green{
+  color:#B1F283;
+}
+
+.text-blue{
+  color:$darkblue;
+}
+
+.bg-whitesmoke{
+    background-color: #F6F6F6;
+}

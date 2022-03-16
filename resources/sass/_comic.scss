@@ -1,0 +1,25 @@
+#comic{
+    .comic-details{
+       
+    }
+    .details {
+        padding: 20px;
+        p{
+            line-height: 1.5rem;
+        }
+        .info{
+            background-color: #55BA59;
+            border-bottom: 1px solid black;
+            font-weight: bold;
+            padding: 10px;
+            .border-left{
+                padding-left: 10px;
+                border-left: 1px solid black;
+            }
+          }
+    }
+   
+    .adv{
+      
+    }
+}
