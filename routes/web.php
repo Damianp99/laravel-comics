@@ -32,8 +32,8 @@ Route::get('/comics', function () {
 Route::get('/comics/{id}', function ($id) {
     dump($id);
     $comics = config('comics');
-    $comics = $comics[0];
-    return view('comics.comic', ['comics' => $comics]);
+    $comic = $comics[$id];
+    return view('comics.comic', compact('comic'));
 })->name('comic');
 
 // MOVIES
