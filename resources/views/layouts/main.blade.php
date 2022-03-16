@@ -11,9 +11,9 @@
     @include('includes.header') 
   
     <main>
-        <div class="jumbotron" style="background-image: url('{{ asset('images/jumbotron.jpg')}}');"></div>
+        <div class="jumbotron" style="background-image: url('{{ asset('images/jumbotron.jpg')}}')"></div>
             @yield('content')
-            @include('includes.merch') 
+           
     </main>
     @include('includes.footer') 
     

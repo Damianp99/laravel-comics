@@ -6,9 +6,12 @@
             <span>CURRENT SERIES</span>
         </div>
         <div class="cards-container d-flex  flex-wrap">
-            @forelse($comics as $comic)
+            @forelse($comics as $index => $comic)
             <div class="card d-flex flex-wrap">
-                <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}" >
+                <a href="{{route("comic", ['id' => $index])}}">
+                    <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}" >
+                    
+                </a>
                 <span>{{$comic['series']}}</span>
             </div>
             @empty
@@ -18,4 +21,5 @@
      
     </div>
    </div>
+   @include('includes.merch') 
 @endsection
